@@ -1,0 +1,27 @@
+html {
+    scroll-behavior: smooth;
+}
+.root {
+    color:color-primary #D73953;
+    color:color-black #090909;
+    color:color-white #ffffff;
+    color:color-light-grey #f3f3f3;
+    color:color-dark-grey #353535;
+    color:text-color color-black;
+}
+body {
+    color:text-color
+}
+a {
+    color:text-color
+}
+
+.visually-hidden {
+    display: none
+}
+.card-category {
+    color:color-primary
+}
+.section-tagline {
+    color:color-primary
+}
