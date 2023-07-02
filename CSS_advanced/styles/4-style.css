@@ -7,20 +7,6 @@ body {
     font:var(--font-family-base)
 }
 
-a {
-    color:text-color
-}
-
-.visually-hidden {
-    display: none
-}
-.card-category {
-    color:color-primary
-}
-.section-tagline {
-    color:color-primary
-}
-
 :root {
     --color-primary:#D73953;
     --color-black:#090909;
@@ -33,5 +19,19 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family:var(--font-famiy-title)
+    font-family:var(--font-famiy-title);
+}
+
+a {
+    color:text-color
+}
+
+.visually-hidden {
+    display: none
+}
+.card-category {
+    color:color-primary
+}
+.section-tagline {
+    color:color-primary
 }
