@@ -1,7 +1,7 @@
 html {
     scroll-behavior: smooth;
 }
-.root {
+:root {
     color:color-primary #D73953;
     color:color-black #090909;
     color:color-white #ffffff;
