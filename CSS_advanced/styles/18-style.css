@@ -85,7 +85,7 @@ a:active {
     display: none
 }
 .card-category {
-    color:color-primary
+    color: var(color-primary);
 }
 .section {
     padding: var(--section-padding);
@@ -132,17 +132,17 @@ a:active {
     text-align: center;
 }
 .nav .nav-item {
-    font-family: nav-item-font-family;
-    font-weight: nav-item-font-weight;
-    font-size: nav-item-font-size;
-    letter-spacing: nav-item-letter-spacing;
-    display: nav-item-display;
-    margin: nav-item-margin;
+    font-family: var(nav-item-font-family);
+    font-weight: var(nav-item-font-weight);
+    font-size: var(nav-item-font-size);
+    letter-spacing: var(nav-item-letter-spacing);
+    display: var(nav-item-display);
+    margin: var(nav-item-margin);
 }
 .nav .nav-link {
     display: block;
     padding: .5rem 1rem;
 }
 .nav .nav-link:hover {
-    background-color: nav-item-link-hover;
+    background-color: var(nav-item-link-hover);
 }
